@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="/css/grid.css" type="text/css">
+
+	<title>Phornrawin's Profile</title>
+	<style>
+		.navbar-default {
+		    background-color: #EAF2F8;
+		}
+		#header.container{
+			color: white;
+			
+		}
+		#headProfile.container{
+			color: white;
+			background-color: #7282A1;
+		}
+		#main.container{
+			color: #7B241C;
+			background-color: white; 
+			padding-bottom: 20px;
+			padding-right: 30px;
+			padding-left: 30px;
+			text-indent: 50px;
+			line-height: 0.8;
+			word-spacing: 5px
+		}
+		#topic.container{
+			background-color: #EAF2F8;
+
+		}
+		.topic{
+			color: #1C2833; 
+		}
+		hr {
+		    height: 1px;
+		    color:#1C2833;
+		    background:#1C2833;
+		    font-size: 0;
+		    border: 0;
+			}
+	</style>
+
+</head>
+<body background="img\BG.jpg">
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">POYiiZ</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    	<ul class="nav navbar-nav">
+	        	<li><a href="./index.html">Home </a></li>
+	        	<li class="active"><a href="#">Resource<span class="sr-only">(current)</span></a></li>
+	        	<li><a href="./resource2.html">Resource 2</a></li>
+	      	</ul>
+	      	<ul class="nav navbar-nav navbar-right">
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lab Homework <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="./lab-homework.html">Lab 2.1</a></li>
+		          </ul>
+		        </li>
+      		</ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="container" id="headProfile">
+		<div class="row">
+			<div class="col-md-12">
+	  				<h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span><b>  RESOURCE</b></h2>
+	  		</div>
+		</div>
+	</div>
+	<div class="container" id="main">
+		<div class="row" style="padding: 20px" style="padding-left: 20px" style="padding-right: 20px">
+			<div class="row" style="background-color: #EAF2F8">
+				<div class="col-md-12">
+					<h3 style="color: #273746">So how does the browser actually render a website</h3>
+					<hr>
+				</div>
+				<div class="col-md-12">
+					<h4>
+						<p>
+							How the HTML is passed, how it get through the different processes in the browser
+							What we’ll cover
+							<br>
+								&emsp;&emsp;- High level view
+							<br>
+								&emsp;&emsp;- In-depth view
+							<br>
+								&emsp;&emsp;- Performance inside
+							<br>
+						</p>
+					</h4>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<div class="thumbnail"><img src="img/para1.png"></div>
+					</div>
+					<div class="col-md-6">
+						<h4>
+							<br>
+							<br>
+							<br>
+							<br>
+							&emsp;&emsp;Sort of like the components that make up a browser ,for the rendering stuff
+							will use certain APIs depending on the operating system, then part, that’s about actually  constructing the website from the HTML that get sent to it, platform stuff that’s dependent on windows or OS x, there are different things between operating systems, then JavaScript virtual machine.
+						</h4>
+					</div>
+					<hr>
+					<br>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<h4>
+							<br>
+							<br>
+							<br>
+							<br>
+							&emsp;&emsp;The HTML, one the CSS, then combined to the render or frame tree depending on which browser.
+							Layout the render tree, it will put it when you have absolute position it will know todo all of that 
+							then painting is the operation of drawing the graphics and giving you the visual output.
+
+						</h4>
+					</div>
+					<div class="col-md-6">
+						<div class="thumbnail"><img src="img/para2.png"></div>
+					</div>
+					<hr>
+					<br>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-3"></div>
+					<div class="col-md-6">
+						<div class="thumbnail"><img src="img/para3.png"></div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-6">
+						<div class="thumbnail"><img src="img/para4.png"></div>
+					</div>
+					<div>
+						<h4>
+							<br>
+							<br>
+							<br>
+							<br>
+							&emsp;&emsp;The parsing flow, these are terms common to. There is tokenisation, that takes the text and turns it into what are called tokens, that will create the parse tree, that will then create the DOM tree which we all interact with JAvaScript, that’s the thing you look at in the browser when you are creating or querying the DOM.
+						</h4>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4">
+						<h4>
+							<br>
+							<br>
+							<br>
+							<br>
+							&emsp;&emsp;How it works out everything is positioned, in the example where I didn’t have that, if it finds an open tag, or not a close tag it will automatically close it, that’s simple rules
+						</h4>
+					</div>
+					<div class="col-md-8">
+						<div class="thumbnail"><img src="img/para5.png"></div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4">
+						<div class="thumbnail"><img src="img/para6.png"></div>
+						<h5>
+							&emsp;That will create a parse tree, so parse tree is representation of your HTML, it’s pretty
+						</h5>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail"><img src="img/para7.png"></div>
+						<h5>
+							&emsp;They will take the parse tree and make it into the DOM tree, it’s all the DOM elements, that’s where you interact with the JavaScript in the page.
+						</h5>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail"><img src="img/para8.png"></div>
+						<h5>
+							&emsp;Pausing for the script to execute, down loading and executing, it will create another threat, another process with the browser and it will actually look ahead, so if you have got images or style sheets it will actually go ahead and fetch all those before it continues on parsing the page, it’s actually kind of smart about that.
+						</h5>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-8">
+						<div class="thumbnail"><img src="img/para9.png"></div>
+					</div>
+					<div class="col-md-4">
+						<h4>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
+							&emsp;&emsp;CSS parsing, it’s pretty standard, if you have done it in other languages, there is nothing special about it, it will create the CSS object model, like the DOM object model, basically it’s a representation of your styles, you have a style sheet, rules, selectors, decorations and so no.
+						</h4>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-8">
+						<div class="thumbnail"><img src="img/para10.png"></div>
+						<h5>
+							&emsp;Parsing HTML and CSS isn’t always necessarily can happen in parallel. JavaScript can affect those two running at the same time
+						</h5>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail"><img src="img/para11.png"></div>
+						<h5>
+							&emsp;The render tree is actually multiple trees, there are like four of them, render object which are kind of like the actual node itself, it’s got a refer to the DOM node, hanging off that the render style, so that’s kind of like the style that apply to that DOM element.
+						</h5>
+					</div>
+				</div>
+				<div class="col-md-12">
+				<center>
+					<h5>referrence: https://www.youtube.com/embed/SmE4OwHztCc</h5>
+					<div class="embed-responsive embed-responsive-16by9">
+  						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SmE4OwHztCc"></iframe>
+					</div>
+				</center>
+				<br>
+			</div>
+
+			</div>
+		</div>
+		
+		
+	</div>
+
+
+</body>
+</html>

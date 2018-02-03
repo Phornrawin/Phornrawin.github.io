@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="/css/grid.css" type="text/css">
+
+	<title>Lab Homework</title>
+	<style>
+		.navbar-default {
+		    background-color: #EAF2F8;
+		}
+		#header.container{
+			color: white;
+			
+		}
+		#headProfile.container{
+			color: white;
+			background-color: #7282A1;
+		}
+		#main.container{
+			color: #7B241C;
+			background-color: white; 
+			padding-bottom: 20px;
+			padding-right: 30px;
+			padding-left: 30px;
+			text-indent: 50px;
+			line-height: 0.8;
+			word-spacing: 5px
+		}
+		#topic.container{
+			background-color: #EAF2F8;
+
+		}
+		
+
+		#tranform{
+			margin: auto;
+		    border: 1px solid black;
+		    outline: coral solid 5px;
+		    width: 300px;
+    		height: 300px;
+		    /*transform: rotateX(150deg);
+		    transition: width 2s;*/
+		    -webkit-animation: example 5s infinite; /* Chrome, Safari, Opera */
+		    animation: example 5s infinite;
+		}
+		@keyframes example {
+		    50% {outline-offset: 50px;}
+		}
+		@-webkit-keyframes example {
+    		50% {outline-offset: 50px;}
+    	}
+   
+		}
+		
+		.topic{
+			color: #1C2833; 
+		}
+		hr {
+		    height: 1px;
+		    color:#1C2833;
+		    background:#1C2833;
+		    font-size: 0;
+		    border: 0;
+			}
+	</style>
+</head>
+<body background="img\BG.jpg">
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">POYiiZ</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="./index.html">Home </a></li>
+	        <li><a href="./resource.html">Resource</a></li>
+	        <li class="active"><a href="#">Resource 2<span class="sr-only">(current)</span></a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lab Homework <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Lab 2.1</a></li>
+		          </ul>
+		        </li>
+      		</ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="container" id="headProfile">
+		<div class="row">
+			<div class="col-md-12">
+	  				<h2><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span><b>  Lab 2.1</b></h2>
+	  		</div>
+		</div>
+	</div>
+	<div class="container" id="main">
+		<div class="row" style="padding: 20px" style="padding-left: 20px" style="padding-right: 20px">
+			<div class="row" style="background-color: #EAF2F8">
+				<div class="col-md-12">
+					<h3 style="color: #34495E"> CSS 3D Transforms</h3>
+				</div>
+				<div class="col-md-12">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<div id="tranform"></div>
+						<br>
+						<br>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
