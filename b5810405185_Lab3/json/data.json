@@ -1,0 +1,223 @@
+[
+	{
+		"question":"นี่คือ สกินของ  แชมเปี่ยนตัวไหน",
+		"img":"img/q1.PNG",
+		"choice" : [
+			"Kennen",
+			"Annie",
+			"Lulu",
+			"Poppy"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"นี่คือ สกินของ  แชมเปี่ยนตัวไหน",
+		"img":"img/q2.PNG",
+		"choice" : [
+			"Syndra",
+			"Nami",
+			"Shyvana",
+			"Morgana"
+		],
+		"ans":"0"
+	},
+	{
+		"question":"Leona ในภาพนี้ อยู่ในชุดสกินอะไร",
+		"img":"img/q3.PNG",
+		"choice" : [
+			"Iron Solari Leona",
+			"PROJECT:Leona",
+			"Barbecue Leona",
+			"Pool party Leona"
+		],
+		"ans":"3"
+	},
+	{
+		"question":"นี่คือ สกินของ  แชมเปี่ยนตัวไหน",
+		"img":"img/q4.PNG",
+		"choice" : [
+			"Zac",
+			"Skarner",
+			"Ivern",
+			"Moakai"
+		],
+		"ans":"2"
+	},
+	{
+		"question":"สมาชิกใน Star Guardian มีทั้งหมดกี่คน",
+		"img":"img/q5.PNG",
+		"choice" : [
+			"8",
+			"9",
+			"10",
+			"11"
+		],
+		"ans":"2"
+	},
+	{
+		"question":"สกิน Dawnbringer Riven ได้ออกมาคู่กับสกินใด",
+		"img":"img/q6.PNG",
+		"choice" : [
+			"Nightbringer Kayn",
+			"Nightbringer Yasuo",
+			"Nightbringer Draven",
+			"Nightbringer Master Yi"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"ในเซต สกิน Sword มีแชมเปี้ยนใดบ้าง",
+		"img":"img/q7.PNG",
+		"choice" : [
+			"Master Yi, Janna, Fiora",
+			"Master Yi Yasuo, Fiora",
+			"Yasuo, Janna, Fiora",
+			"Yasuo, Fiora, Ireria"
+		],
+		"ans":"0"
+	},
+	{
+		"question":"ในเซต สกิน Blood Moon แชมเปี้ยนตัวใด ตัวเล็กที่สุด",
+		"img":"img/q8.PNG",
+		"choice" : [
+			"Blood Moon Ziggs",
+			"Blood Moon Kennen",
+			"Blood Moon Veigar",
+			"Blood Moon Teemo"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"ในเซต สกิน Pentakill แชมเปี้ยนที่เป็นผู้หญิงกี่คน ",
+		"img":"img/q9.PNG",
+		"choice" : [
+			"1",
+			"2",
+			"3",
+			"4"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"ในเซต สกิน Urf แชมเปี้ยนที่เป็นซัพพอตกี่คน ",
+		"img":"img/q10.PNG",
+		"choice" : [
+			"1",
+			"2",
+			"3",
+			"4"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"ในเซต สกิน Super Galaxy มีแชมเปี้ยนกี่คน",
+		"img":"img/q11.PNG",
+		"choice" : [
+			"2",
+			"3",
+			"4",
+			"5"
+		],
+		"ans":"3"
+	},
+	{
+		"question":"ใครไม่ได้อยู่ใน เซต Program",
+		"img":"img/q12.PNG",
+		"choice" : [
+			"Fiora",
+			"Soraka",
+			"Camille",
+			"Lissandra"
+		],
+		"ans":"0"
+	},
+	
+	{
+		"question":"ข้ใด เป็นสมาชิกของเซต Mafia ทุกคน",
+		"img":"img/q13.PNG",
+		"choice" : [
+			"Miss Fortune, Jinx, Fiora",
+			"Jinx, Graves, Miss Fortune",
+			"Graves, Jinx, Kayle",
+			"Graves, Kayle, Fiora"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"สมาชิกใน Blood Moon มีทั้งหมดกี่คน",
+		"img":"img/q14.PNG",
+		"choice" : [
+			"10",
+			"11",
+			"12",
+			"13"
+		],
+		"ans":"2"
+	},
+	{
+		"question":"สมาชิกใน Blood Moon มีทั้งหมดกี่คน",
+		"img":"img/q15.PNG",
+		"choice" : [
+			"10",
+			"11",
+			"12",
+			"13"
+		],
+		"ans":"2"
+	},
+	{
+		"question":"จากภาพ นี่คือสกินของแชมเปี้ยนตัวใด",
+		"img":"img/q16.PNG",
+		"choice" : [
+			"Ashe",
+			"Sivir",
+			"LeBlanc",
+			"Syndra"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"จากภาพ นี่คือสกินของแชมเปี้ยนตัวใด",
+		"img":"img/q17.PNG",
+		"choice" : [
+			"Kayle",
+			"Riven",
+			"Leona",
+			"Diana"
+		],
+		"ans":"0"
+	},
+	{
+		"question":"จากภาพ นี่คือสกินของแชมเปี้ยนตัวใด",
+		"img":"img/q18.PNG",
+		"choice" : [
+			"Catilyn",
+			"Elise",
+			"Evelynn",
+			"Kilista"
+		],
+		"ans":"3"
+	},
+	{
+		"question":"จากภาพ นี่คือสกินของแชมเปี้ยนตัวใด",
+		"img":"img/q19.PNG",
+		"choice" : [
+			"Kayle",
+			"Riven",
+			"Leona",
+			"Ashe"
+		],
+		"ans":"1"
+	},
+	{
+		"question":"[Bonus] ปอย เล่นตำแหน่งไหนเก่งสุดๆ",
+		"img":"img/q20.PNG",
+		"choice" : [
+			"Support",
+			"ADC",
+			"Mid",
+			"Top"
+		],
+		"ans":"0"
+	}
+]
