@@ -114,6 +114,7 @@ $(document).ready(function(){
 				console.log(response);
 				$("#total_cholesterol_value").text(response.total.toFixed(2));
 				$("#total_cholesterol_level").text(response.level);
+				
 			}
 		});
 	});
