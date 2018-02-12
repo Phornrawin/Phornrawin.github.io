@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<style type="text/css">
+		input{
+			margin: 10px;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Calculator for health</h2>
+			</div>
+			<br>
+			<div class="col-md-12">
+				<h5>Selete: </h5>	
+					<select id="calculate" name="select_cal">	  
+					    <option value="bmi" selected="selected" >BMI</option>
+					    <option value="bmr">BMR</option>
+					    <option value="total_cholesterol">Total Choleterol</option>
+					</select>
+		  		<br><br>
+			</div>
+
+
+			<div class="row" id="input">
+				<div class="col-md-12" id="bmi_input" >
+					  Weight (kg): 
+					  <input type="number" name="bmi_kg" id="bmi_kg">
+					  <br>
+					  Height (cm): 
+					  <input type="number" name="bmi_cm" id="bmi_cm">
+					  <br><br>
+					  <button class="btn btn-success" id="btn_bmi"> -Calculate- </button>
+					
+				</div>
+
+				<div class="col-md-12" id="bmr_input">
+						Gender: 
+					<input type="radio" id="bmr_sex_male" name="bmr_sex" value="Male" checked> Male
+					<input type="radio" id="bmr_sex_female" name="bmr_sex" value="Female"> Female   
+					  <br>
+					  Weight (kg): 
+					  <input type="number" name="bmr_kg" id="bmr_kg">
+					  <br>
+					  Height (cm): 
+					  <input type="number" name="bmr_cm" id="bmr_cm">
+					  <br>
+					  Age (year): 
+					  <input type="number" name="bmr_age" id="bmr_age">
+					  <br>
+					  Activity: 
+					  <select id="bmr_activity" name="bmr_activity">
+						<option value="0">No Exercise</option>
+						<option value="1">Exercise 1-3 days per week</option>
+						<option value="2">Exercise 4-5 days per week</option>
+						<option value="3">Exercise 6-7 days per week</option>
+						<option value="4">Exercise twice per day</option>
+					</select>
+					<br>
+					<br>
+					<button class="btn btn-success" id="btn_bmr">-Calculate-</button>
+					<br>
+				</div>
+
+				<div class="col-md-12" id="total_cholesterol_input">
+						LDL: 
+						<input type="number" id="chol_ldl" name="chol_ldl">
+						<br>
+						HDL: 
+						<input type="number" id="chol_hdl" name="chol_hdl">
+						<br>
+						Triglycerides: 
+						<input type="number" id="chol_tri" name="chol_tri">
+						<br>
+						<button class="btn btn-success" id="btn_chol">-Calculate-</button>
+				</div>
+
+			</div>
+			<br>
+			<br>
+
+			<div class="col-md-12" id="output">
+				<div class="col-md-12" id="bmi_output">
+					<br><br>
+					Your BMI: <span id="bmi_value"> - </span>
+					<br>
+					<span id="bmi_level"> - </span>
+				</div>
+
+				<div class="col-md-12" id="bmr_output">
+					<br><br>
+					Your BMR: <span id="bmr_value"> - </span>
+					<br>
+					Your TDEE: <span id="tdee_value"> - </span>
+				</div>
+
+				<div class="col-md-12" id="chol_output">
+					<br><br>
+					Your Total cholestorol: <span id="total_cholesterol_value"> - </span>
+					<br>
+					<span id="total_cholesterol_level"> - </span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
